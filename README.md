@@ -21,7 +21,7 @@ Download the preprocessed <a href="http://datasets.lids.mit.edu/sparse-to-dense/
 
 ## Models
 A number of trained models can be downloaded <a href="https://drive.google.com/file/d/1heAXjHVK0yQ4oKyR0qIyY4sRfSA_CapN/view?usp=sharing">here</a> which are used to obtain the results reported in the paper on the benchmark datasets NYU-Depth-v2 and KITTI for indoor and outdoor scenes, respectively. 
-Run the main.py with options to obtain the prediction in this paper "Learning Pixel-level Depth Maps by using an Encoder-decoder Model". For example, on the NYU-Depth-v2 dataset, the commands are
+Run the main.py with options to obtain the prediction in this paper "Learning Pixel-level Depth Maps by using an Encoder-decoder Model". For example, on the NYU-Depth-v2 dataset, the commands are:
 ```bash
 python main.py -b 1 -m rgbd -s 20 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset nyudepth --lr 0.01 --evaluate > log-rgbd-20-nyudepth-time.txt
 
@@ -31,7 +31,7 @@ python main.py -b 1 -m d -s 20 --in_channels 512 --data [path_to_dataset] --epoc
 
 python main.py -b 1 -m d -s 50 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset nyudepth --lr 0.01 --evaluate > log-d-50-nyudepth-time.txt
 ```
-On the KITTI dataset, the commands are
+On the KITTI dataset, the commands are:
 ```bash
 python main.py -b 1 -m rgb -s 0 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset kitti --lr 0.01 --evaluate > log-rgb-0-kitti-time.txt
 
