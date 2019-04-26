@@ -30,6 +30,8 @@ python main.py -b 1 -m rgbd -s 50 --in_channels 512 --data [path_to_dataset] --e
 python main.py -b 1 -m d -s 20 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset nyudepth --lr 0.01 --evaluate > log-d-20-nyudepth-time.txt
 
 python main.py -b 1 -m d -s 50 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset nyudepth --lr 0.01 --evaluate > log-d-50-nyudepth-time.txt
+
+python main.py -b 1 -m rgb -s 0 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset nyudepth --lr 0.01 --evaluate > log-rgb-0-nyudepth-time.txt
 ```
 On the KITTI dataset, the commands are:
 ```bash
