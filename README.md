@@ -17,7 +17,7 @@ The CNN models trained for depth estimation is available in this directory of re
 
 ## Quick Guide
 This code was tested with Python 3.6 and PyTorch 0.3.1.
-Download the preprocessed <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">NYU Depth V2</a> and <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/kitti.tar.gz">KITTI Odometry dataset</a> that are provided by Fangchang Ma and used by the paper<a href="https://github.com/fangchangma/sparse-to-dense.pytorch">"Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image"</a>.
+Download the preprocessed <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">NYU Depth V2</a> and <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/kitti.tar.gz">KITTI Odometry dataset</a> that are provided by Fangchang Ma and used by the paper<a href="https://github.com/fangchangma/sparse-to-dense.pytorch"> "Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image"</a>.
 
 ## Models
 A number of trained models can be downloaded <a href="https://drive.google.com/file/d/1heAXjHVK0yQ4oKyR0qIyY4sRfSA_CapN/view?usp=sharing">here</a> which are used to obtain the results reported in the paper on the benchmark datasets NYU-Depth-v2 and KITTI for indoor and outdoor scenes, respectively. 
