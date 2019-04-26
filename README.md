@@ -13,7 +13,7 @@ This part contains pretrained models, which are stored in <a href="https://drive
 
 
 The code and models verify the results in this paper "Learning Pixel-level Depth Maps by using an Encoder-decoder Model".
-The CNN models trained for depth estimation is available in this directory of results. The results from RGB images  are the same as that in this paper when inputs are  the testing dataset in <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">datasets</a>. The results from sparse depths and  RGBd data may be different from those in the paper slightly, due to the different depth samples. Additionally, the code provided can be used for inference on arbitrary images.
+The CNN models trained for depth estimation is available in this directory of results. The results from RGB images are the same as that in this paper when inputs are  the testing dataset in <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">datasets</a>. The results from sparse depths and  RGBd data may be different from those in the paper slightly, due to the different depth samples. Additionally, the code provided can be used for inference on arbitrary images.
 
 ## Quick Guide
 This code was tested with Python 3.6 and PyTorch 0.3.1.
@@ -35,9 +35,9 @@ On the KITTI dataset, the commands are
 ```bash
 python main.py -b 1 -m rgb -s 0 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset kitti --lr 0.01 --evaluate > log-rgb-0-kitti-time.txt
 
-
 python main.py -b 1 -m rgbd -s 50 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset kitti --lr 0.01 --evaluate > log-rgbd-50-kitti-time.txt
 
 python main.py -b 1 -m rgbd -s 100 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset kitti --lr 0.01 --evaluate > log-rgbd-100-kitti-time.txt
 ```
 ## Results
+ The results are in this paper  "Learning Pixel-level Depth Maps by using an Encoder-decoder Model".
