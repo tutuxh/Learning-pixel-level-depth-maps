@@ -42,7 +42,7 @@ python main.py -b 1 -m rgbd -s 50 --in_channels 512 --data [path_to_dataset] --e
 python main.py -b 1 -m rgbd -s 100 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset kitti --lr 0.01 --evaluate > log-rgbd-100-kitti-time.txt
 ```
 ## Results
-The results are in this paper  "Learning Pixel-level Depth Maps using an Encoder-decoder Model". 
+The results are in this paper  "Learning Depth for Scene Reconstruction using Encoder-decoder Models". 
  
 #### Citation
 If you use our method or code in your work, please consider citing our paper.
