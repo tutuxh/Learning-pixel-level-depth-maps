@@ -4,7 +4,7 @@
 0. [Introduction](#introduction)
 0. [Quick Guide](#quick-guide)
 0. [Depth estimation models](#models)
-0. [The proposed SLAM system based on depth estimation](#the proposed SLAM system based on depth estimation)
+0. [The proposed SLAM system based on our depth estimation](#the proposed SLAM system based on our depth estimation)
 0. [Results](#results)
 0. [Citation](#citation)
 
@@ -41,7 +41,7 @@ python main.py -b 1 -m rgbd -s 50 --in_channels 512 --data [path_to_dataset] --e
 python main.py -b 1 -m rgbd -s 100 --in_channels 512 --data [path_to_dataset] --epochs 30 --optimizer sgd --activation relu --dataset kitti --lr 0.01 --evaluate > log-rgbd-100-kitti-time.txt
 ```
 
-## The proposed SLAM system based on depth estimation
+## The proposed SLAM system based on our depth estimation
 We compute the absolute trajectory error from the ground truth trajectory and the estimated trajectory.
 On the fr1_desk TUM sequence, the commands are:
 ```bash
