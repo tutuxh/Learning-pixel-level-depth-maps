@@ -55,7 +55,7 @@ python evaluate_ate.py groundtruth_fr3_str_tex_far.txt My_CameraTrajectory_fr3_s
 Then we can acquire our SLAM' absolute_translational_error.rmse, absolute_translational_error.mean, absolute_translational_error.median, absolute_translational_error.std, absolute_translational_error.min., and absolute_translational_error.max.
 
 ## Results
-All results are in the paper "Learning Depth for Scene Reconstruction using Encoder-decoder Models".  The 
+All results are in the paper "Learning Depth for Scene Reconstruction using Encoder-decoder Models".  
 
 #### Citation
 If you use our method or code in your work, please consider citing our paper.
