@@ -43,7 +43,7 @@ python main.py -b 1 -m rgbd -s 100 --in_channels 512 --data [path_to_dataset] --
 
 ## The proposed SLAM system based on our depth estimation
 We compute the absolute trajectory error from the ground truth trajectory and the estimated trajectory.
-On the fr1_desk TUM sequence, the commands are:
+For example, on the fr1_desk TUM sequence, the commands are:
 ```bash
 python evaluate_ate.py groundtruth_fr1_desk.txt My_CameraTrajectory_fr1_desk.txt --verbose
 ```
