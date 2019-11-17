@@ -4,7 +4,7 @@
 0. [Introduction](#introduction)
 0. [Quick Guide](#quick-guide)
 0. [Depth estimation models](#models)
-0. [The proposed SLAM system based on our depth estimation](#the proposed SLAM system based on our depth estimation)
+0. [The proposed SLAM system based on our depth estimation](#The proposed SLAM system based on our depth estimation)
 0. [Results](#results)
 0. [Citation](#citation)
 
