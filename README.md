@@ -12,11 +12,11 @@
 This part includes pretrained models, which are stored in <a href="https://drive.google.com/file/d/1heAXjHVK0yQ4oKyR0qIyY4sRfSA_CapN/view?usp=sharing">Google Drive</a>.
 
 The code and models verify the results in this paper "Learning Depth for Scene Reconstruction using Encoder-decoder Models".
-The CNN models trained for depth estimation are available in this directory of results. The results from RGB images are the same as that in the paper when inputs are the testing dataset in <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">datasets</a>. The results from sparse depths and  RGBd data may be different from those in the paper slightly due to the different depth samples. Additionally, our provided code can be used for inference on arbitrary images.
+The CNN models trained for depth estimation are available in this directory of results. The results are the same as that in the paper when inputs are RGB images on the testing dataset in <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">datasets</a>. The results may be different from those in the paper slightly due to the different depth samples when inputs are sparse depths and RGBd data on the testing dataset in <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">datasets</a>. Additionally, our provided code can be used for inference on arbitrary images.
 
 ## Quick Guide
 This code was running with Python 3.6 and PyTorch 0.3.1.
-Download the preprocessed dataset <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz">NYU Depth V2</a> and <a href="http://datasets.lids.mit.edu/sparse-to-dense/data/kitti.tar.gz">KITTI Odometry dataset</a> that are provided by Fangchang Ma and used by the paper<a href="https://github.com/fangchangma/sparse-to-dense.pytorch"> "Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image"</a>.
+We use the dataset <a href="https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html">NYU Depth V2</a> and <a href="http://www.cvlibs.net/datasets/kitti">KITTI Odometry dataset</a> to train and test our models.
 
 ## Depth estimation models
 A number of trained models can be downloaded <a href="https://drive.google.com/file/d/1heAXjHVK0yQ4oKyR0qIyY4sRfSA_CapN/view?usp=sharing">here</a> which are used to acquire the results reported in the paper on the benchmark datasets NYU-Depth-v2 and KITTI for indoor and outdoor scenes, respectively. 
